@@ -67,7 +67,7 @@ h6 {
   background: #f9f6f0;
 }
 
-#qbootstrap-header {
+#wedding-header {
   position: absolute;
   z-index: 99;
   width: 100%;
@@ -76,7 +76,7 @@ h6 {
   margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-header {
+  #wedding-header {
     margin-top: 0;
     background: #fff;
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -84,47 +84,47 @@ h6 {
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
-  #qbootstrap-header .navbar-brand {
+  #wedding-header .navbar-brand {
     color: #ff847c !important;
   }
-  #qbootstrap-header #navbar li a {
+  #wedding-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
-  #qbootstrap-header #navbar li a:hover {
+  #wedding-header #navbar li a:hover {
     color: #ff847c !important;
   }
-  #qbootstrap-header #navbar li a span:before {
+  #wedding-header #navbar li a span:before {
     background: transparent !important;
   }
-  #qbootstrap-header #navbar li.active a {
+  #wedding-header #navbar li.active a {
     background: transparent;
     background: none;
     color: #ff847c !important;
   }
-  #qbootstrap-header #navbar li.active a span:before {
+  #wedding-header #navbar li.active a span:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
 }
-#qbootstrap-header .navbar {
+#wedding-header .navbar {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-#qbootstrap-header #navbar li a {
+#wedding-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
-#qbootstrap-header #navbar li a span {
+#wedding-header #navbar li a span {
   position: relative;
   display: block;
   padding-bottom: 2px;
 }
-#qbootstrap-header #navbar li a span:before {
+#wedding-header #navbar li a span:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -144,10 +144,10 @@ h6 {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-#qbootstrap-header #navbar li a:hover {
+#wedding-header #navbar li a:hover {
   color: #fff;
 }
-#qbootstrap-header #navbar li a:hover span:before {
+#wedding-header #navbar li a:hover span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
@@ -155,17 +155,17 @@ h6 {
   -o-transform: scaleX(1);
   transform: scaleX(1);
 }
-#qbootstrap-header #navbar li.active a {
+#wedding-header #navbar li.active a {
   background: transparent;
   background: none;
   color: #fff;
 }
-#qbootstrap-header #navbar li.active a span:before {
+#wedding-header #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-#qbootstrap-header .navbar-brand {
+#wedding-header .navbar-brand {
   float: left;
   display: block;
   font-size: 34px;
@@ -175,12 +175,12 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-  #qbootstrap-header .navbar-brand {
+  #wedding-header .navbar-brand {
     font-size: 22px;
   }
 }
 
-#qbootstrap-header.navbar-fixed-top {
+#wedding-header.navbar-fixed-top {
   position: fixed !important;
   background: #fff;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -190,29 +190,29 @@ h6 {
   margin-top: 0px;
   top: 0;
 }
-#qbootstrap-header.navbar-fixed-top .navbar-brand {
+#wedding-header.navbar-fixed-top .navbar-brand {
   color: #ff847c;
 }
-#qbootstrap-header.navbar-fixed-top #navbar li a {
+#wedding-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-#qbootstrap-header.navbar-fixed-top #navbar li a:hover {
+#wedding-header.navbar-fixed-top #navbar li a:hover {
   color: #ff847c;
 }
-#qbootstrap-header.navbar-fixed-top #navbar li.active a {
+#wedding-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
   color: #ff847c;
 }
-#qbootstrap-header.navbar-fixed-top #navbar li.active a span:before {
+#wedding-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-#qbootstrap-header .navbar-default {
+#wedding-header .navbar-default {
   border: transparent;
   background: transparent;
   -webkit-border-radius: 0px;
@@ -221,23 +221,23 @@ h6 {
   border-radius: 0px;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-header .navbar-default {
+  #wedding-header .navbar-default {
     margin-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
   }
 }
-#qbootstrap-header .navbar-default .brand-slogan {
+#wedding-header .navbar-default .brand-slogan {
   margin: 28px 0 0 15px;
   float: left;
   letter-spacing: 2px;
   color: #adadad;
 }
-#qbootstrap-header .navbar-default .brand-slogan em {
+#wedding-header .navbar-default .brand-slogan em {
   color: #ff847c;
   font-style: normal;
 }
-#qbootstrap-header a {
+#wedding-header a {
   -webkit-transition: 0s;
   -o-transition: 0s;
   transition: 0s;
@@ -293,51 +293,51 @@ h6 {
   transition: 0.3s;
 }
 
-#qbootstrap-couple,
-#qbootstrap-countdown,
-#qbootstrap-groom-bride,
-#qbootstrap-story,
-#qbootstrap-people,
-#qbootstrap-when-where,
-#qbootstrap-started,
-#qbootstrap-gallery,
-#qbootstrap-testimonials,
-#qbootstrap-press {
+#wedding-couple,
+#wedding-countdown,
+#wedding-groom-bride,
+#wedding-story,
+#wedding-people,
+#wedding-when-where,
+#wedding-started,
+#wedding-gallery,
+#wedding-testimonials,
+#wedding-press {
   padding: 2em 0;
 }
 @media screen and (max-width: 480px) {
-  #qbootstrap-couple,
-  #qbootstrap-countdown,
-  #qbootstrap-groom-bride,
-  #qbootstrap-story,
-  #qbootstrap-people,
-  #qbootstrap-when-where,
-  #qbootstrap-started,
-  #qbootstrap-gallery,
-  #qbootstrap-testimonials,
-  #qbootstrap-press {
+  #wedding-couple,
+  #wedding-countdown,
+  #wedding-groom-bride,
+  #wedding-story,
+  #wedding-people,
+  #wedding-when-where,
+  #wedding-started,
+  #wedding-gallery,
+  #wedding-testimonials,
+  #wedding-press {
     padding: 5em 0;
   }
 }
 
-.qbootstrap-bg {
+.wedding-bg {
   background: rgba(0, 0, 0, 0.03);
 }
 
-.qbootstrap-cover,
-.qbootstrap-hero {
+.wedding-cover,
+.wedding-hero {
   position: relative;
   height: 800px;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  .qbootstrap-cover,
-  .qbootstrap-hero {
+  .wedding-cover,
+  .wedding-hero {
     height: 750px;
   }
 }
 
-.qbootstrap-overlay {
+.wedding-overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -348,20 +348,20 @@ h6 {
   background: rgba(0, 0, 0, 0.4);
 }
 
-.qbootstrap-cover,
+.wedding-cover,
 .video-hero {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
-  .qbootstrap-cover,
+  .wedding-cover,
   .video-hero {
     height: inherit;
     padding: 3em 0;
   }
 }
-.qbootstrap-cover .display-t,
+.wedding-cover .display-t,
 .video-hero .display-t {
   display: table;
   height: 800px;
@@ -370,17 +370,17 @@ h6 {
   z-index: 2;
 }
 @media screen and (max-width: 768px) {
-  .qbootstrap-cover .display-t,
+  .wedding-cover .display-t,
   .video-hero .display-t {
     height: 600px;
   }
 }
-.qbootstrap-cover .display-tc,
+.wedding-cover .display-tc,
 .video-hero .display-tc {
   display: table-cell;
   vertical-align: middle;
 }
-.qbootstrap-cover .display-tc .holder,
+.wedding-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -388,12 +388,12 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 10px;
 }
-.qbootstrap-cover .display-tc .holder span,
+.wedding-cover .display-tc .holder span,
 .video-hero .display-tc .holder span {
   position: relative;
 }
-.qbootstrap-cover .display-tc .holder span:before,
-.qbootstrap-cover .display-tc .holder span:after,
+.wedding-cover .display-tc .holder span:before,
+.wedding-cover .display-tc .holder span:after,
 .video-hero .display-tc .holder span:before,
 .video-hero .display-tc .holder span:after {
   position: absolute;
@@ -403,94 +403,94 @@ h6 {
   background: #fff;
   content: "";
 }
-.qbootstrap-cover .display-tc .holder span:before,
+.wedding-cover .display-tc .holder span:before,
 .video-hero .display-tc .holder span:before {
   left: -110px;
 }
-.qbootstrap-cover .display-tc .holder span:after,
+.wedding-cover .display-tc .holder span:after,
 .video-hero .display-tc .holder span:after {
   right: -110px;
 }
 @media screen and (max-width: 768px) {
-  .qbootstrap-cover .display-tc .holder,
+  .wedding-cover .display-tc .holder,
   .video-hero .display-tc .holder {
     letter-spacing: 2px;
   }
-  .qbootstrap-cover .display-tc .holder span,
+  .wedding-cover .display-tc .holder span,
   .video-hero .display-tc .holder span {
     position: relative;
   }
-  .qbootstrap-cover .display-tc .holder span:before,
-  .qbootstrap-cover .display-tc .holder span:after,
+  .wedding-cover .display-tc .holder span:before,
+  .wedding-cover .display-tc .holder span:after,
   .video-hero .display-tc .holder span:before,
   .video-hero .display-tc .holder span:after {
     width: 50px;
     height: 2px;
   }
-  .qbootstrap-cover .display-tc .holder span:before,
+  .wedding-cover .display-tc .holder span:before,
   .video-hero .display-tc .holder span:before {
     left: -60px;
   }
-  .qbootstrap-cover .display-tc .holder span:after,
+  .wedding-cover .display-tc .holder span:after,
   .video-hero .display-tc .holder span:after {
     right: -60px;
   }
 }
-.qbootstrap-cover .display-tc h2,
+.wedding-cover .display-tc h2,
 .video-hero .display-tc h2 {
   color: #fff;
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: 300 !important;
 }
-.qbootstrap-cover .display-tc h2 strong,
+.wedding-cover .display-tc h2 strong,
 .video-hero .display-tc h2 strong {
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  .qbootstrap-cover .display-tc h2,
+  .wedding-cover .display-tc h2,
   .video-hero .display-tc h2 {
     font-size: 30px;
   }
 }
-.qbootstrap-cover .display-tc p,
+.wedding-cover .display-tc p,
 .video-hero .display-tc p {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 10px;
 }
-.qbootstrap-cover .display-tc .svg-sm .svg,
+.wedding-cover .display-tc .svg-sm .svg,
 .video-hero .display-tc .svg-sm .svg {
   height: 180px;
   margin-bottom: 0;
 }
-.qbootstrap-cover .display-tc .colored .svg,
+.wedding-cover .display-tc .colored .svg,
 .video-hero .display-tc .colored .svg {
   fill: #fff;
 }
 
-#qbootstrap-slider-hero {
+#wedding-slider-hero {
   min-height: 800px;
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
-#qbootstrap-slider-hero .flexslider {
+#wedding-slider-hero .flexslider {
   border: none;
   z-index: 1;
   margin-bottom: 0;
 }
-#qbootstrap-slider-hero .flexslider .slides {
+#wedding-slider-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
 }
-#qbootstrap-slider-hero .flexslider .slides li {
+#wedding-slider-hero .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   min-height: 770px;
   position: relative;
 }
-#qbootstrap-slider-hero .flexslider .slides li:after {
+#wedding-slider-hero .flexslider .slides li:after {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -500,53 +500,53 @@ h6 {
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
-#qbootstrap-slider-hero .flexslider .flex-control-nav {
+#wedding-slider-hero .flexslider .flex-control-nav {
   bottom: 7em;
   z-index: 1000;
 }
-#qbootstrap-slider-hero .flexslider .flex-control-nav li a {
+#wedding-slider-hero .flexslider .flex-control-nav li a {
   background: rgba(255, 255, 255, 0.5);
   box-shadow: none;
   width: 12px;
   height: 12px;
   cursor: pointer;
 }
-#qbootstrap-slider-hero .flexslider .flex-control-nav li a.flex-active {
+#wedding-slider-hero .flexslider .flex-control-nav li a.flex-active {
   cursor: pointer;
   background: #ff847c;
 }
-#qbootstrap-slider-hero .flexslider .flex-direction-nav {
+#wedding-slider-hero .flexslider .flex-direction-nav {
   display: none;
 }
-#qbootstrap-slider-hero .flexslider .slider-text {
+#wedding-slider-hero .flexslider .slider-text {
   display: table;
   opacity: 0;
   min-height: 800px;
   z-index: 9;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
   vertical-align: middle;
   height: 800px;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h1,
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner h1,
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner h2 {
   margin: 0;
   padding: 0;
   color: white;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h1 {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
   font-size: 80px;
   line-height: 1.3;
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h1 {
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner h1 {
     font-size: 30px;
   }
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 18px;
@@ -554,11 +554,11 @@ h6 {
   letter-spacing: 10px;
   font-weight: 400;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span {
   position: relative;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before,
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before,
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
   position: absolute;
   top: 49%;
   width: 100px;
@@ -566,51 +566,51 @@ h6 {
   background: #fff;
   content: "";
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before {
   left: -110px;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
   right: -110px;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
     letter-spacing: 2px;
   }
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span {
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span {
     position: relative;
   }
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before,
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before,
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
     width: 50px;
     height: 2px;
   }
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before {
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:before {
     left: -60px;
   }
-  #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
+  #wedding-slider-hero .flexslider .slider-text > .slider-text-inner .holder span:after {
     right: -60px;
   }
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .date {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .date {
   color: #fff;
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 10px;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .date span {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .date span {
   padding: 5px 20px;
   border: 1px solid #fff;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .btn {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .btn {
   padding: 18px 30px !important;
   color: #fff;
   border: none !important;
@@ -619,31 +619,31 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-#qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
+#wedding-slider-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
   background: #ff847c !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
 }
 
-#qbootstrap-couple img {
+#wedding-couple img {
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#qbootstrap-couple h3 {
+#wedding-couple h3 {
   font-size: 34px;
   font-family: "Clicker Script", cursive;
   color: #ff847c;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-couple h3 {
+  #wedding-couple h3 {
     font-size: 35px;
   }
 }
-#qbootstrap-couple span {
+#wedding-couple span {
   color: #ff847c;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -651,57 +651,57 @@ h6 {
   border: 1px solid rgba(255, 132, 124, 0.3);
   padding: 2px 5px;
 }
-#qbootstrap-couple .amp-center {
+#wedding-couple .amp-center {
   font-size: 60px;
   margin-top: 100%;
   color: #ff847c;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-couple .amp-center {
+  #wedding-couple .amp-center {
     font-size: 40px;
   }
 }
-#qbootstrap-couple .amp-center .colored .svg {
+#wedding-couple .amp-center .colored .svg {
   fill: #ff847c;
 }
 
-.qbootstrap-bg {
+.wedding-bg {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
 
-#qbootstrap-countdown {
+#wedding-countdown {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   z-index: 0;
   width: 100%;
 }
-#qbootstrap-countdown .section-heading {
+#wedding-countdown .section-heading {
   margin-bottom: 0 !important;
 }
-#qbootstrap-countdown .section-heading h2 {
+#wedding-countdown .section-heading h2 {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-countdown .section-heading h2 {
+  #wedding-countdown .section-heading h2 {
     font-size: 30px;
   }
 }
-#qbootstrap-countdown .section-heading .datewed {
+#wedding-countdown .section-heading .datewed {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.7);
 }
-#qbootstrap-countdown .section-heading.svg-sm .svg {
+#wedding-countdown .section-heading.svg-sm .svg {
   height: 180px;
   margin-bottom: -50px;
   padding: 0;
 }
-#qbootstrap-countdown .section-heading.colored .svg {
+#wedding-countdown .section-heading.colored .svg {
   fill: #fff;
 }
-#qbootstrap-countdown .overlay {
+#wedding-countdown .overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -711,24 +711,24 @@ h6 {
   z-index: -1;
   background: rgba(0, 0, 0, 0.4);
 }
-#qbootstrap-countdown .countdown {
+#wedding-countdown .countdown {
   margin-bottom: 0;
   font-size: 80px;
   color: #fff;
 }
-#qbootstrap-countdown .countdown span {
+#wedding-countdown .countdown span {
   margin: 0 30px;
   display: inline-block;
   font-family: "Clicker Script", cursive;
 }
-#qbootstrap-countdown .countdown small {
+#wedding-countdown .countdown small {
   display: block;
   font-size: 14px;
   font-family: "Source Sans Pro", Arial, sans-serif;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-#qbootstrap-countdown .display-over {
+#wedding-countdown .display-over {
   z-index: 2;
 }
 
@@ -985,17 +985,17 @@ h6 {
     right: auto;
   }
 }
-.qbootstrap-greetings {
+.wedding-greetings {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
 
-#qbootstrap-testimonials {
+#wedding-testimonials {
   background: #ff847c;
   z-index: 0;
 }
-#qbootstrap-testimonials .overlay {
+#wedding-testimonials .overlay {
   position: absolute !important;
   width: 100%;
   top: 0;
@@ -1005,39 +1005,39 @@ h6 {
   z-index: -1;
   background: rgba(0, 0, 0, 0.4);
 }
-#qbootstrap-testimonials .section-heading {
+#wedding-testimonials .section-heading {
   margin-bottom: 0 !important;
 }
-#qbootstrap-testimonials .section-heading h2 {
+#wedding-testimonials .section-heading h2 {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-testimonials .section-heading h2 {
+  #wedding-testimonials .section-heading h2 {
     font-size: 30px;
   }
 }
-#qbootstrap-testimonials .section-heading.svg-sm .svg {
+#wedding-testimonials .section-heading.svg-sm .svg {
   height: 180px;
   margin-bottom: -50px;
   padding: 0;
 }
-#qbootstrap-testimonials .section-heading.colored .svg {
+#wedding-testimonials .section-heading.colored .svg {
   fill: #fff;
 }
-#qbootstrap-testimonials .box-testimony {
+#wedding-testimonials .box-testimony {
   margin-bottom: 2em;
   float: left;
 }
-#qbootstrap-testimonials .box-testimony a {
+#wedding-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
 }
-#qbootstrap-testimonials .box-testimony a:hover,
-#qbootstrap-testimonials .box-testimony a:focus,
-#qbootstrap-testimonials .box-testimony a:active {
+#wedding-testimonials .box-testimony a:hover,
+#wedding-testimonials .box-testimony a:focus,
+#wedding-testimonials .box-testimony a:active {
   color: white;
   text-decoration: none;
 }
-#qbootstrap-testimonials .box-testimony blockquote {
+#wedding-testimonials .box-testimony blockquote {
   padding-left: 0;
   border-left: none;
   padding: 40px;
@@ -1048,7 +1048,7 @@ h6 {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-#qbootstrap-testimonials .box-testimony blockquote:after {
+#wedding-testimonials .box-testimony blockquote:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -1058,7 +1058,7 @@ h6 {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
 }
-#qbootstrap-testimonials .box-testimony blockquote .quote {
+#wedding-testimonials .box-testimony blockquote .quote {
   position: absolute;
   top: 0;
   left: 10px;
@@ -1076,31 +1076,31 @@ h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#qbootstrap-testimonials .box-testimony blockquote .quote > span {
+#wedding-testimonials .box-testimony blockquote .quote > span {
   display: table-cell;
   vertical-align: middle;
 }
-#qbootstrap-testimonials .box-testimony blockquote p {
+#wedding-testimonials .box-testimony blockquote p {
   font-style: italic;
 }
-#qbootstrap-testimonials .box-testimony .author {
+#wedding-testimonials .box-testimony .author {
   line-height: 20px;
   color: white;
   font-size: 20px;
   margin-left: 20px;
 }
-#qbootstrap-testimonials .box-testimony .author .subtext {
+#wedding-testimonials .box-testimony .author .subtext {
   display: block;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
 }
-#qbootstrap-testimonials .testimony-slide {
+#wedding-testimonials .testimony-slide {
   position: relative;
   color: #fff !important;
   width: 90%;
   margin: 0 auto;
 }
-#qbootstrap-testimonials .testimony-slide blockquote {
+#wedding-testimonials .testimony-slide blockquote {
   border: none;
   position: relative;
   padding: 0;
@@ -1108,31 +1108,31 @@ h6 {
   font-family: "Clicker Script", cursive;
   font-style: italic;
 }
-#qbootstrap-testimonials .arrow-thumb {
+#wedding-testimonials .arrow-thumb {
   position: absolute;
   top: 40%;
   display: block;
   width: 100%;
 }
-#qbootstrap-testimonials .arrow-thumb a {
+#wedding-testimonials .arrow-thumb a {
   font-size: 32px;
   color: #dadada;
 }
-#qbootstrap-testimonials .arrow-thumb a:hover,
-#qbootstrap-testimonials .arrow-thumb a:focus,
-#qbootstrap-testimonials .arrow-thumb a:active {
+#wedding-testimonials .arrow-thumb a:hover,
+#wedding-testimonials .arrow-thumb a:focus,
+#wedding-testimonials .arrow-thumb a:active {
   text-decoration: none;
 }
-#qbootstrap-testimonials .owl-theme .owl-dots .owl-dot span {
+#wedding-testimonials .owl-theme .owl-dots .owl-dot span {
   background: rgba(255, 255, 255, 0.3) !important;
 }
-#qbootstrap-testimonials .owl-theme .owl-dots .active span {
+#wedding-testimonials .owl-theme .owl-dots .active span {
   background: white !important;
 }
-#qbootstrap-testimonials .qbootstrap-heading {
+#wedding-testimonials .wedding-heading {
   margin-bottom: 3em;
 }
-#qbootstrap-testimonials .qbootstrap-heading h2 {
+#wedding-testimonials .wedding-heading h2 {
   color: #fff;
   margin-bottom: 20px !important;
 }
@@ -1228,36 +1228,36 @@ h6 {
   }
 }
 
-#qbootstrap-started {
+#wedding-started {
   position: relative;
 }
-#qbootstrap-started .section-heading {
+#wedding-started .section-heading {
   margin-bottom: 0 !important;
 }
-#qbootstrap-started .section-heading h2 {
+#wedding-started .section-heading h2 {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  #qbootstrap-started .section-heading h2 {
+  #wedding-started .section-heading h2 {
     font-size: 30px;
   }
 }
-#qbootstrap-started .section-heading h3 {
+#wedding-started .section-heading h3 {
   color: rgba(255, 255, 255, 0.8);
 }
-#qbootstrap-started .section-heading .datewed {
+#wedding-started .section-heading .datewed {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.7);
 }
-#qbootstrap-started .section-heading.svg-sm .svg {
+#wedding-started .section-heading.svg-sm .svg {
   height: 180px;
   margin-bottom: -50px;
   padding: 0;
 }
-#qbootstrap-started .section-heading.colored .svg {
+#wedding-started .section-heading.colored .svg {
   fill: #fff;
 }
-#qbootstrap-started .overlay {
+#wedding-started .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1265,13 +1265,13 @@ h6 {
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
 }
-#qbootstrap-started .qbootstrap-heading h2 {
+#wedding-started .wedding-heading h2 {
   color: #fff;
 }
-#qbootstrap-started .qbootstrap-heading p {
+#wedding-started .wedding-heading p {
   color: rgba(255, 255, 255, 0.5);
 }
-#qbootstrap-started .form-control {
+#wedding-started .form-control {
   background: rgba(255, 255, 255, 0.2);
   border: none !important;
   color: #fff;
@@ -1283,24 +1283,24 @@ h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#qbootstrap-started .form-control::-webkit-input-placeholder {
+#wedding-started .form-control::-webkit-input-placeholder {
   color: #fff;
 }
-#qbootstrap-started .form-control:-moz-placeholder {
+#wedding-started .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
 }
-#qbootstrap-started .form-control::-moz-placeholder {
+#wedding-started .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
 }
-#qbootstrap-started .form-control:-ms-input-placeholder {
+#wedding-started .form-control:-ms-input-placeholder {
   color: #fff;
 }
-#qbootstrap-started .form-control:focus {
+#wedding-started .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
 }
-#qbootstrap-started .btn {
+#wedding-started .btn {
   height: 54px;
   border: none !important;
   background: #ff847c;
@@ -1311,17 +1311,17 @@ h6 {
   padding-left: 50px;
   padding-right: 50px;
 }
-#qbootstrap-started .form-inline .form-group {
+#wedding-started .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
 }
-#qbootstrap-started .form-inline .form-group .form-control {
+#wedding-started .form-inline .form-group .form-control {
   width: 100%;
 }
-#qbootstrap-started .qbootstrap-heading {
+#wedding-started .wedding-heading {
   margin-bottom: 30px;
 }
-#qbootstrap-started .qbootstrap-heading h2 {
+#wedding-started .wedding-heading h2 {
   margin-bottom: 0;
 }
 
@@ -1356,11 +1356,11 @@ h6 {
   transform: scale(1.1);
 }
 
-#qbootstrap-press {
+#wedding-press {
   background: #f4f4f4;
 }
 
-#qbootstrap-press .qbootstrap-press-item {
+#wedding-press .wedding-press-item {
   background: #fff;
   float: left;
   margin-bottom: 30px;
@@ -1377,28 +1377,28 @@ h6 {
   border-radius: 4px;
 }
 @media screen and (max-width: 480px) {
-  #qbootstrap-press .qbootstrap-press-item {
+  #wedding-press .wedding-press-item {
     display: block !important;
   }
 }
-#qbootstrap-press .qbootstrap-press-item .qbootstrap-press-text,
-#qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
+#wedding-press .wedding-press-item .wedding-press-text,
+#wedding-press .wedding-press-item .wedding-press-img {
   width: 50%;
 }
 @media screen and (max-width: 480px) {
-  #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-text,
-  #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
+  #wedding-press .wedding-press-item .wedding-press-text,
+  #wedding-press .wedding-press-item .wedding-press-img {
     height: inherit;
     float: none !important;
     width: 100%;
     display: block !important;
   }
 }
-#qbootstrap-press .qbootstrap-press-item .qbootstrap-press-text {
+#wedding-press .wedding-press-item .wedding-press-text {
   float: left;
   padding: 20px;
 }
-#qbootstrap-press .qbootstrap-press-item .qbootstrap-press-text .qbootstrap-press-title {
+#wedding-press .wedding-press-item .wedding-press-text .wedding-press-title {
   margin: 0 0 20px 0;
   padding: 0 0 10px 0;
   font-weight: 400;
@@ -1406,7 +1406,7 @@ h6 {
   color: #444;
   position: relative;
 }
-#qbootstrap-press .qbootstrap-press-item .qbootstrap-press-text .qbootstrap-press-title .qbootstrap-border {
+#wedding-press .wedding-press-item .wedding-press-text .wedding-press-title .wedding-border {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1414,7 +1414,7 @@ h6 {
   width: 30px;
   background: #ff847c;
 }
-#qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
+#wedding-press .wedding-press-item .wedding-press-img {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1422,7 +1422,7 @@ h6 {
   background-size: cover;
 }
 @media screen and (max-width: 480px) {
-  #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-img {
+  #wedding-press .wedding-press-item .wedding-press-img {
     height: 200px;
     left: 0;
     top: 0;
@@ -1431,23 +1431,23 @@ h6 {
   }
 }
 
-.qbootstrap-nav-toggle {
+.wedding-nav-toggle {
   width: 25px;
   height: 25px;
   cursor: pointer;
   text-decoration: none;
 }
-.qbootstrap-nav-toggle.active i::before,
-.qbootstrap-nav-toggle.active i::after {
+.wedding-nav-toggle.active i::before,
+.wedding-nav-toggle.active i::after {
   background: #ff847c;
 }
-.qbootstrap-nav-toggle:hover,
-.qbootstrap-nav-toggle:focus,
-.qbootstrap-nav-toggle:active {
+.wedding-nav-toggle:hover,
+.wedding-nav-toggle:focus,
+.wedding-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
-.qbootstrap-nav-toggle i {
+.wedding-nav-toggle i {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1462,8 +1462,8 @@ h6 {
   background: #ff847c;
   transition: all 0.2s ease-out;
 }
-.qbootstrap-nav-toggle i::before,
-.qbootstrap-nav-toggle i::after {
+.wedding-nav-toggle i::before,
+.wedding-nav-toggle i::after {
   content: "";
   width: 25px;
   height: 3px;
@@ -1475,27 +1475,27 @@ h6 {
   transition: 0.2s;
 }
 
-.qbootstrap-nav-toggle i::before {
+.wedding-nav-toggle i::before {
   top: -7px;
 }
 
-.qbootstrap-nav-toggle i::after {
+.wedding-nav-toggle i::after {
   bottom: -7px;
 }
 
-.qbootstrap-nav-toggle:hover i::before {
+.wedding-nav-toggle:hover i::before {
   top: -10px;
 }
 
-.qbootstrap-nav-toggle:hover i::after {
+.wedding-nav-toggle:hover i::after {
   bottom: -10px;
 }
 
-.qbootstrap-nav-toggle.active i {
+.wedding-nav-toggle.active i {
   background: transparent;
 }
 
-.qbootstrap-nav-toggle.active i::before {
+.wedding-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1504,7 +1504,7 @@ h6 {
   transform: rotateZ(45deg);
 }
 
-.qbootstrap-nav-toggle.active i::after {
+.wedding-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1513,7 +1513,7 @@ h6 {
   transform: rotateZ(-45deg);
 }
 
-.qbootstrap-nav-toggle {
+.wedding-nav-toggle {
   position: absolute;
   top: 12px;
   right: 0px;
@@ -1527,7 +1527,7 @@ h6 {
   border-bottom: none !important;
 }
 @media screen and (max-width: 768px) {
-  .qbootstrap-nav-toggle {
+  .wedding-nav-toggle {
     display: block;
   }
 }
@@ -1715,7 +1715,7 @@ h6 {
   opacity: 0;
 }
 
-.qbootstrap-animated {
+.wedding-animated {
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
   -webkit-animation-fill-mode: both;
