@@ -26,7 +26,7 @@
   };
 
   var sliderMain = function () {
-    $("#qbootstrap-slider-hero .flexslider").flexslider({
+    $("#wedding-slider-hero .flexslider").flexslider({
       animation: "fade",
       slideshowSpeed: 5000,
       directionNav: true,
@@ -59,7 +59,7 @@
 
   // Burger Menu
   var burgerMenu = function () {
-    $("body").on("click", ".js-qbootstrap-nav-toggle", function (event) {
+    $("body").on("click", ".js-wedding-nav-toggle", function (event) {
       if ($("#navbar").is(":visible")) {
         $(this).removeClass("active");
       } else {
@@ -92,7 +92,7 @@
       if (navbar.is(":visible")) {
         navbar.removeClass("in");
         navbar.attr("aria-expanded", "false");
-        $(".js-qbootstrap-nav-toggle").removeClass("active");
+        $(".js-wedding-nav-toggle").removeClass("active");
       }
 
       event.preventDefault();
@@ -144,16 +144,16 @@
     var lastScrollTop = 0;
 
     $(window).scroll(function (event) {
-      var header = $("#qbootstrap-header"),
+      var header = $("#wedding-header"),
         scrlTop = $(this).scrollTop();
 
       if (scrlTop > 500 && scrlTop <= 2000) {
-        header.addClass("navbar-fixed-top qbootstrap-animated slideInDown");
+        header.addClass("navbar-fixed-top wedding-animated slideInDown");
       } else if (scrlTop <= 500) {
         if (header.hasClass("navbar-fixed-top")) {
-          header.addClass("navbar-fixed-top qbootstrap-animated slideOutUp");
+          header.addClass("navbar-fixed-top wedding-animated slideOutUp");
           setTimeout(function () {
-            header.removeClass("navbar-fixed-top qbootstrap-animated slideInDown slideOutUp");
+            header.removeClass("navbar-fixed-top wedding-animated slideInDown slideOutUp");
           }, 100);
         }
       }
